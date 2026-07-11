@@ -3,8 +3,8 @@ stuff = open('file.txt', 'r')
 print(stuff)
 inp=stuff.read()
 print(len(inp))
-line = line.rstrip()
 for line in stuff:
+    line = line.rstrip()
     if not line.startswith('From:'):
         continue
 print(line)
