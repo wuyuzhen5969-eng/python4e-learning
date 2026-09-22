@@ -11,6 +11,10 @@ print(s[-3]) # l
 print(s[-4]) # e
 print(s[-5]) # h
 print(len(s)) # 5, the length of the string is 5, and the index of the last character is 4, which is len(s)-1.
+
+len(123)# not working
+len(str(123))#3
+
 def my_len(s):
     count = 0
     for char in s:

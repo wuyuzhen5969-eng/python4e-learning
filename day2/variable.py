@@ -4,6 +4,7 @@ print(y)
 
 i = 2 + float(2)
 j = type(i)
+m = type(j) #type, also a variable, maybe create own type one day
 print(f"{i:.2f}, {j}")
 
 m = 54 + int('123')

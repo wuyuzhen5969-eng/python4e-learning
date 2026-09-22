@@ -13,9 +13,9 @@ print('done')
 # break statement ends the current loop and jumps to the statement immediately follwing the loop.
 while True:
     line = input("Enter a line of text (or 'quit' to exit): ")
+    print("You entered:", line)
     if line == 'quit':
         break#break 只作用于最近一层循环
-    print("You entered:", line)
 print('done!')
 
 # continue statement ends the current iteration and jumps to the top of the loop and starts the next iteration.
