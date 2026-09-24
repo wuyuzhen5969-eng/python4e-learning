@@ -113,3 +113,5 @@ abc3 = abc.split(';')
 print(abc3)
 for word in abc3:
     print(word[1])
+
+help(list)

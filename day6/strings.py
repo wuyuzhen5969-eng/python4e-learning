@@ -144,3 +144,16 @@ print(ord('😊'))   # 128522
 print(chr(65))     # A
 print(chr(20013))  # 中
 print(chr(128522)) # 😊
+
+
+
+
+print(int(2.9)) #2
+print(type(2*3)) #int
+print(type(2+3)) #int
+print(type(2-3)) #int
+print(type(2/3)) #float
+print(type(2*3.2)) #float
+print(type(2+3.2)) #float
+
+help(string)
