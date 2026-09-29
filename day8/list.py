@@ -115,3 +115,36 @@ for word in abc3:
     print(word[1])
 
 help(list)
+
+#Filter
+#[expression for x in ls, if x]
+names = ['Ally', 'Richard','Lily','April']
+A_names = [name for name in names if 'il' in name]
+print(A_names)
+z_names = [0 for name in names]#same size,or range()
+
+a = [1,2,3]
+b = a[:]
+a[1] = 42
+print(b)
+#slices, get elements to create a new list(shallow copy), so a and b are different list.
+
+a = [1,2,3]
+b = a
+a[1] = 42
+print(b)
+#the nature of list, b = a means that b and a are related to the same list, so  the change of a implies b and conversely. 
+
+a = [[1,2],[2,3]]
+b = a[:]
+a[1][0] = 42
+print(b)
+#deep copy, though list a and b are not the same list, their sublist are the same list.b = [[1,2],[42,3]]
+
+print(4*'2'+'2')#eat space
+
+print('2','2','2','2')
+
+a = [1,2,3,4,5]
+b = [0::2]#b=[1,3,5]
+#the range of slices can over the index

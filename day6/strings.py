@@ -157,3 +157,10 @@ print(type(2*3.2)) #float
 print(type(2+3.2)) #float
 
 help(string)
+
+import string
+strings = 'a string: with spaces, and punctuation!'
+ls = strings.split( )   
+for word in ls:
+    t = word.strip(string.punctuation)
+    print(t)

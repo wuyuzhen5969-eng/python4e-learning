@@ -17,6 +17,7 @@ print(y) # {'a': 10, 'b': 1, 'c': 22}
 x = dict(a=10, b=1, c=22) # function调用函数创建
 print(x) # {'a': 10, 'b': 1, 'c': 22}
 x = dict(zip(['a', 'b', 'c'], [10, 1, 22])) # function调用函数创建
+#zip is a iterater creating ordered pair, the type is zip,use list() or dict() to transform it
 print(x) # {'a': 10, 'b': 1, 'c': 22}
 z = [('a', 10), ('b', 1), ('c', 22)]#list of tuples, each tuple is a key-value pair
 print(type(z)) # <class 'list'>
