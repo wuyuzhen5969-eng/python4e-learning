@@ -146,5 +146,5 @@ print(4*'2'+'2')#eat space
 print('2','2','2','2')
 
 a = [1,2,3,4,5]
-b = [0::2]#b=[1,3,5]
+b = a[0:5:2]
 #the range of slices can over the index

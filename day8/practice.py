@@ -34,7 +34,7 @@ try:
     fhand = open(fname)
 except:
     print("File cannot be opened:", fname)
-    exiit()
+    exit()
 count = 0
 for line in list(fhand):
     if line.startswith("From:"):

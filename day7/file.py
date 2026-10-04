@@ -1,13 +1,25 @@
 #file processing, a text file can be thought of as a sequence of lines, and each line is a sequence of characters.
-stuff = open('file.txt', 'r')
-print(stuff)
-inp=stuff.read()
+stuff = open('day7/mbox-short.txt', 'r')
+print(type(stuff))
+inp=stuff.read() 
+print(type(inp))
+
 print(len(inp))
 for line in stuff:
     line = line.rstrip()
     if not line.startswith('From:'):
         continue
 print(line)
+stuff.close()
+
+f = open('day7/file.txt','w')
+l = list(range(1,39,4))
+f.write(str(l))
+f.close() #instead of .close, we can use ith
+
+with open('day7/file.txt','w') as f
+l = list(range(1,39,4))
+f.write(str(l))
 
 
 stuff = 'x\ny'
