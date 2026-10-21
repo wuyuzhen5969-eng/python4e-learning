@@ -75,3 +75,4 @@ rate = input("Enter rate: ")
 rate = float(rate)
 pay = computepay(hrs,rate)
 print(f"Pay: {pay:.2f}")
+
